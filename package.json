@@ -20,6 +20,7 @@
     "body-parser": "^1.18.2",
     "express": "^4.16.2",
     "json-validation": "^1.0.4",
+    "jsonschema": "^1.2.2",
     "mongodb": "^3.0.0-rc0"
   },
   "devDependencies": {

@@ -6,9 +6,7 @@ const db             = require('./config/db');
 const validation     = require('json-validation');
 
 app.use(bodyParser.json()); // support json encoded bodies
-
 const port = 8000;
-
 app.use(bodyParser.urlencoded({ extended: true }));
 MongoClient.connect(db.url, (err, database) => {
   if (err) return console.log(err)
