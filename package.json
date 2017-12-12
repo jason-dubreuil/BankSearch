@@ -1,0 +1,19 @@
+{
+  "name": "banksearch",
+  "version": "1.0.0",
+  "description": "banksearchg",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jason-dubreuil/BankSearch.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jason-dubreuil/BankSearch/issues"
+  },
+  "homepage": "https://github.com/jason-dubreuil/BankSearch#readme"
+}
