@@ -4,7 +4,7 @@
   "description": "banksearchg",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/jason-dubreuil/BankSearch/issues"
   },
-  "homepage": "https://github.com/jason-dubreuil/BankSearch#readme"
+  "homepage": "https://github.com/jason-dubreuil/BankSearch#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mongodb": "^3.0.0-rc0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.5"
+  }
 }
